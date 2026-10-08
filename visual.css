@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+header {
+    background-color: #7c8594;
+    color: #12253f;
+    padding: 8px;
+    text-align: center;
+    font-family: Orbitron;
+    border-style: outset;
+}
+
+body {
+    background-image:radial-gradient(circle, #7c8594, #12253f);
+}
+
+#para1h1{
+        color: #2E4566;
+        font-size: 18px;
+        text-align: center;
+        border-style: dotted;
+        border-width: 5px;
+        padding: 6px;
+}
