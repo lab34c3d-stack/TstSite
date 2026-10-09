@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Space+Grotesk:wght@300..700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 header {
     background-color: #7c8594;
-    color: #12253f;
+    color: #ffffff;
     padding: 8px;
     text-align: center;
     font-family: Orbitron;
@@ -15,25 +17,43 @@ body {
   width: 80%;
   max-width: 1000px;
   margin: 60px auto;
-  padding: 30px;
+  padding: 100px;
 
   background: rgba(255, 255, 255, 0.12);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
 
   border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 25px;
+  border-radius: 30px;
 
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
 }
 
 .painel-produtos h2 {
-  text-align: center;
+    font-family: 'Space Grotesk';
+  font-size: 28px;
+  color: #fff;
+  text-align: start;
+  margin-top: -15px;
+  margin-bottom: 25px;
+  position: relative;
+  top: -50px;
+}
+
+.painel-produtos p {
+  font-family: 'Space Grotesk';
+  font-size: 18px;
+  color: #fff;
+  text-align: start;
+  margin-bottom: 20px;
+  margin-top: -15px;
+  position: relative;
+  top: -50px;
 }
 
 .produtos {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   gap: 20px;
 }
