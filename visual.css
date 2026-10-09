@@ -5,18 +5,52 @@ header {
     padding: 8px;
     text-align: center;
     font-family: Orbitron;
-    border-style: outset;
 }
 
 body {
-    background-image:radial-gradient(circle, #7c8594, #12253f);
+    background-image: linear-gradient(to right, #7c8594, #12253f);
 }
 
 #para1h1{
-        color: #2E4566;
+        color: #152030;
         font-size: 18px;
-        text-align: center;
-        border-style: dotted;
+        border-style: double;
+        border-radius: 10px;
         border-width: 5px;
         padding: 6px;
+        text-align: center;
+}
+
+.painel-produtos {
+  width: 80%;
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 30px;
+
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.painel-produtos h2 {
+  text-align: center;
+}
+
+.produtos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.produtos img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 15px;
 }
