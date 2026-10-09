@@ -11,16 +11,6 @@ body {
     background-image: linear-gradient(to right, #7c8594, #12253f);
 }
 
-#para1h1{
-        color: #152030;
-        font-size: 18px;
-        border-style: double;
-        border-radius: 10px;
-        border-width: 5px;
-        padding: 6px;
-        text-align: center;
-}
-
 .painel-produtos {
   width: 80%;
   max-width: 1000px;
